@@ -143,22 +143,6 @@ Dimension alignment automatically handled (supports RotatE-style `2×` dims).
 
 ---
 
-## 🧩 Prefix Construction
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-`PretrainKGEmbedding` maps IDs to prefix vectors fed to LLMs:
-
-| Input shape | Output shape | Meaning |
-|--------------|---------------|----------|
-| `[B,3]` | `[B, 3×num_prefix, dim_llm]` | head, relation, tail |
-| `[B,L]` | `[B, L×num_prefix, dim_llm]` | multiple entities + relations |
-| `[B]` | `[B, num_prefix, dim_llm]` | single entity |
-
-> Invalid IDs are masked to padding (0). Labels for prefix positions are masked (-100).
-
----
-
 ## 🚀 Training
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
