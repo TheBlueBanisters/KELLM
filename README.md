@@ -14,7 +14,8 @@
 ---
 
 <p align="center">
-  <img src="docs/figs/kelLM_overview.png" alt="KELLM overview" width="85%"/>
+  <img src="docs/figs/kelLM_overview_1.png" alt="KELLM overview" width="85%"/>
+  <img src="docs/figs/kelLM_overview_2.png" alt="KELLM overview" width="85%"/>
 </p>
 
 ---
